@@ -1,0 +1,30 @@
+body {
+  background-image: url(../images/blueberry.jpg);
+  z-index: 1;
+}
+.content {
+  max-width: 50em;
+  margin: auto;
+}
+.banner {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Roboto Slab', cursive;
+}
+.item-entry {
+  max-width: 14em;
+  margin: auto;
+}
+.items {
+  height: 20em;
+  max-width: 30em;
+  margin: auto;
+  background-color: #B095B2;
+  margin-top: 5em;
+}
+.foods {
+  font-family: 'Shadows Into Light Two', serif;
+  color: #fff;
+  padding: 0.25em 0 0 1em;
+}
