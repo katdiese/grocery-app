@@ -2,9 +2,12 @@ $(document).ready(function(){
   
 //add new items to the list with the input box
   $(".add").click(function(){
-    $(".items ul").prepend(
+    if(!$.trim($('input').val())) {
+      alert("You can't think of ANYTHING??");
+    }
+      else{$(".items ul").prepend(
       $('<li><div class="box"></div>' + $("input").val() + '<div class="delete"></div></li>')
-    );
+        )}
   });
   
 //check box/strike through text when clicked
