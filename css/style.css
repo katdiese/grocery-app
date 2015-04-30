@@ -1,10 +1,26 @@
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
 body {
   background-image: url(../images/blueberry.jpg);
   z-index: 1;
 }
+ul {
+  list-style-type: none;
+}
+li:hover {
+ cursor: pointer
+}
 .content {
   max-width: 50em;
   margin: auto;
+  margin-bottom: 7em;
 }
 .banner {
   color: #fff;
@@ -22,9 +38,42 @@ body {
   margin: auto;
   background-color: #B095B2;
   margin-top: 5em;
-}
-.foods {
+  border-radius: 30px;
+  padding-top: 0.5em;
+  overflow: scroll;
   font-family: 'Shadows Into Light Two', serif;
   color: #fff;
-  padding-top: 0.5em;
+  font-size: 1.25em;
+}
+.delete {
+  color: red;
+  font-weight: bold;
+  border-radius: 90px;
+  font-size: .5em;
+  margin-left: 4em;
+}
+.box {
+  float: left;
+  background-image: url('../images/box.png');
+  height: 1em;
+  width: 1em;
+  background-size: 100%;
+}
+.checked {
+  background-image: url('../images/checked.png'); 
+}
+.delete {
+  background-image: url('../images/delete.png');
+  float: right;
+  height: 2em;
+  width: 2em;
+  background-size: 100%;
+  display: none;
+  margin-right: 20em;
+}
+.show {
+  display: inline;
+}
+.two {
+  text-decoration: line-through;
 }

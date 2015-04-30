@@ -8,6 +8,7 @@
 	<script src="https://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="content">
@@ -15,10 +16,28 @@
       <h1>What are we out of?</h1>
     </div>
     <div class="item-entry">
-      <input type="text">
-      <input type="submit" value="Add">
+      <input id="submit" placeholder="We're out of..."/>
+      <button type="submit" class="add">Add</button>
     </div>
     <div class="items">
+      <ul class="item-list">
+        <li class="food">
+          <div class="box"></div>
+          <span>Cat Food</span>
+          <div class="delete"></div>
+        </li>
+        <li class="food">
+          <div class="box"></div>
+          <span>Honey</span>
+          <div class="delete"></div>
+        </li>
+        <li class="food">
+          <div class="box"></div>
+          <span>Mandarin Oranges</span>
+          <div class="delete"></div>
+        </li>
+        <!--<li><button class="delete">X</button></li>-->
+      </ul>
     </div>
   </div>
   
