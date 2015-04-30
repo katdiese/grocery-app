@@ -29,8 +29,19 @@ li:hover {
   font-family: 'Roboto Slab', cursive;
 }
 .item-entry {
-  max-width: 14em;
+  max-width: 20em;
   margin: auto;
+}
+#submit{
+  height: 1.5em;
+  font-size: 20px;
+  float:left;
+}
+.add {
+  height: 2em;
+  width: 5em;
+  border-radius: 5px;
+  margin: 5px;
 }
 .instructions {
   font-family: 'Shadows Into Light Two', serif;
