@@ -32,14 +32,24 @@ li:hover {
   max-width: 14em;
   margin: auto;
 }
+.instructions {
+  font-family: 'Shadows Into Light Two', serif;
+  font-size: .80em;
+  text-align: center;
+  font-weight: bold;
+  color: #FFBD20;
+}
+.instructions span {
+  text-decoration: underline;
+  font-size: 1.5em;
+}
 .items {
   height: 20em;
   max-width: 30em;
   margin: auto;
   background-color: #B095B2;
-  margin-top: 5em;
+  margin-top: 2em;
   border-radius: 30px;
-  padding-top: 0.5em;
   overflow: scroll;
   font-family: 'Shadows Into Light Two', serif;
   color: #fff;
