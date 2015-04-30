@@ -87,3 +87,11 @@ li:hover {
 .two {
   text-decoration: line-through;
 }
+.icon-credit{
+  color: #fff;
+  margin: 4em;
+  text-align: center;
+}
+a:link {
+  color: black;
+}
