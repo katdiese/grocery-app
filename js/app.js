@@ -16,12 +16,14 @@ $(document).ready(function(){
     $(this).children('.box').toggleClass('checked');
   })
   
-//show delete sign on hover
+//show delete sign, highlight on hover
   $('ul').on('mouseenter','li',function(){
     $(this).children('.delete').css('display','inline');
+    $(this).css('background-color', '#CAABCC');
   });
   $('ul').on('mouseleave','li',function(){
     $(this).children('.delete').hide();
+    $(this).css('background-color', '#B095B2');
   });
 
 //remove when delete is pressed

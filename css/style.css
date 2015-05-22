@@ -49,6 +49,7 @@ li:hover {
   text-align: center;
   font-weight: bold;
   color: #FFBD20;
+  background-color: 000;
 }
 .instructions span {
   text-decoration: underline;
